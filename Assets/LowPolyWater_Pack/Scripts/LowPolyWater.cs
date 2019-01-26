@@ -26,6 +26,12 @@ namespace LowPolyWater
             CreateMeshLowPoly(meshFilter);
         }
 
+	void OnTriggerEnter(Collider other) {
+		if (other.tag == "BasePlayer") {
+			Application.LoadLevel(Application.loadedLevel);
+		}
+	}
+
         /// <summary>
         /// Rearranges the mesh vertices to create a 'low poly' effect
         /// </summary>
@@ -63,6 +69,8 @@ namespace LowPolyWater
         
         void Update()
         {
+			Vector3 position = new Vector3 (this.transform.position.x, this.transform.position.y + 0.001f, this.transform.position.z);
+			this.transform.position = position;
             GenerateWaves();
         }
 
