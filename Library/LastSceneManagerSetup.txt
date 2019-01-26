@@ -1,22 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Enzo_Room_1_Forest.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Enzo_Room_1.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Enzo.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Felipe.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Daniel.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/Israel.unity
-  isLoaded: 0
-  isActive: 0
 - path: Assets/Scenes/Room.unity
   isLoaded: 1
   isActive: 1
