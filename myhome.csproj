@@ -644,6 +644,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Animations\DoorCloseScript.cs" />
+    <Compile Include="Assets\Animations\DoorOpenScript.cs" />
     <Compile Include="Assets\Animations\DoorScript.cs" />
   </ItemGroup>
   <ItemGroup>
