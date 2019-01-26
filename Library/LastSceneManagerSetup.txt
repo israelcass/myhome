@@ -1,7 +1,10 @@
 sceneSetups:
-- path: Assets/Scenes/Enzo.unity
+- path: Assets/Scenes/Enzo_Room_1.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/Enzo.unity
+  isLoaded: 1
+  isActive: 0
 - path: Assets/Scenes/Felipe.unity
   isLoaded: 0
   isActive: 0
