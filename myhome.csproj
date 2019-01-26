@@ -647,8 +647,11 @@
     <Compile Include="Assets\Animations\DoorCloseScript.cs" />
     <Compile Include="Assets\Animations\DoorOpenScript.cs" />
     <Compile Include="Assets\Animations\DoorScript.cs" />
+    <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\MegaPack1Lite\EnchantedForestPack1\README.txt" />
     <None Include="Assets\MegaPack1Lite\GreekPack1Lite\README.txt" />
     <None Include="Assets\MegaPack1Lite\RomanCityPack1Lite\README.txt" />
