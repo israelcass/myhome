@@ -7,6 +7,7 @@ TagManager:
   - lava
   - BasePlayer
   - DeathMenuUI
+  - jar
   layers:
   - Default
   - TransparentFX

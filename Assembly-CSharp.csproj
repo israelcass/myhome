@@ -57,11 +57,15 @@
      <Compile Include="Assets\Animations\DoorOpenScript.cs" />
      <Compile Include="Assets\Animations\DoorScript.cs" />
      <Compile Include="Assets\Animations\Rotation.cs" />
+     <Compile Include="Assets\Collide.cs" />
      <Compile Include="Assets\DeathMenu.cs" />
-     <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
      <Compile Include="Assets\Menu.cs" />
-     <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
-     <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
+     <None Include="Assets\Lava_Flowing_Shader\ReadMe.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Enzo Mercanti/Documents/Unity/myhome/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

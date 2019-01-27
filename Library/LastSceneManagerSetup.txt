@@ -8,3 +8,6 @@ sceneSetups:
 - path: Assets/Scenes/DeathMenu.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/Scenes/WinMenu.unity
+  isLoaded: 0
+  isActive: 0
