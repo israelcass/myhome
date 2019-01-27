@@ -6,6 +6,7 @@ TagManager:
   tags:
   - lava
   - BasePlayer
+  - DeathMenuUI
   layers:
   - Default
   - TransparentFX

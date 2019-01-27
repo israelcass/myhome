@@ -57,7 +57,9 @@
      <Compile Include="Assets\Animations\DoorOpenScript.cs" />
      <Compile Include="Assets\Animations\DoorScript.cs" />
      <Compile Include="Assets\Animations\Rotation.cs" />
+     <Compile Include="Assets\DeathMenu.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+     <Compile Include="Assets\Menu.cs" />
      <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
      <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">

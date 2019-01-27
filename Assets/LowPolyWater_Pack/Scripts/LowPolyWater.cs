@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace LowPolyWater
 {
@@ -7,10 +8,8 @@ namespace LowPolyWater
         public float waveHeight = 0.5f;
         public float waveFrequency = 0.5f;
         public float waveLength = 0.75f;
-
         //Position where the waves originate from
         public Vector3 waveOriginPosition = new Vector3(0.0f, 0.0f, 0.0f);
-
         MeshFilter meshFilter;
         Mesh mesh;
         Vector3[] vertices;
@@ -28,7 +27,7 @@ namespace LowPolyWater
 
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "BasePlayer") {
-			Application.LoadLevel(Application.loadedLevel);
+			SceneManager.LoadScene("DeathMenu");
 		}
 	}
 
